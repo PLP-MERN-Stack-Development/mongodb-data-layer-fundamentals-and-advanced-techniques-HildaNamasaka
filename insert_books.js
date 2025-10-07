@@ -4,7 +4,7 @@
 const { MongoClient } = require('mongodb');
 
 // Connection URI (replace with your MongoDB connection string if using Atlas)
-const uri = 'mongodb://localhost:27017';
+const uri = 'mongodb+srv://nasimiyunamasaka_db_user:ZiJs6hucSCjGcodq@cluster0.p5wv3m1.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
 
 // Database and collection names
 const dbName = 'plp_bookstore';
@@ -196,3 +196,5 @@ insertBooks().catch(console.error);
  * 5. Find in-stock books:
  *    db.books.find({ in_stock: true })
  */ 
+
+
